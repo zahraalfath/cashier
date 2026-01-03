@@ -2,7 +2,7 @@ from fpdf import FPDF
 from datetime import datetime
 import os
 
-def buat_pdf_struk(daftar_pesanan, menu, total_bayar, item_counter):
+def buat_pdf_struk(daftar_pesanan, menu, total_bayar):
     pdf = FPDF()
     pdf.add_page()
     pdf.set_margins(15, 10, 15)
